@@ -1,5 +1,5 @@
 meta:
-  title: Redocly Training
+  title: eLabNext developer
   description: The best API documentation generator ever.
   siteUrl: https://developer-portal-starter.redoc.ly
   keywords: redocly developer portal, api portal starter, api reference docs
@@ -9,12 +9,11 @@ linkChecker:
   options:
     CheckExternal: false
 logo:
-  image: ./images/logo.png
-  altText: Redocly Training
+  image: ./images/logo.svg
+  altText: eLabNext developer
 toc:
   enable: true
 oasDefinitions:
-  petstore: ./openapi/petstore.yaml
   elabnext: https://api.redocly.com/registry/bundle/elabnext/v1/v1/openapi.yaml?branch=main
   # add links to definitions in our API registry by using a fully qualified URL.
 stylesheets:
@@ -28,12 +27,23 @@ stylesheets:
 #  - ./static/intercom.js
 nav:
 
-  - label: Training exercises
+  - label: Quick starts
     page: developer-portal/index.md
 
-  - label: External docs
-    icon: ./images/redocly-icon-white.png
-    href: https://redoc.ly/docs/developer-portal/introduction/
+  - label: Guides
+    page: developer-portal/guides.md
+
+  - label: API reference
+    page: openapi/index.md
+  
+  - label: SDK & Tools
+    page: developer-portal/sdk.md
+  
+  - label: Support
+    page: developer-portal/support.md
+  
+  - label: Storybook
+    href: https://sandbox.elabjournal.com/docs/storybook/
 
   - search: true
 

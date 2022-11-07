@@ -42,6 +42,10 @@ training:
     expanded: false
     pages:
       - page: openapi/reference.page.yaml/*
+  - group: eLabNext API reference
+    expanded: false
+    pages:
+      - page: openapi/elabnextapi.page.yaml/*
 
   - group: Admin
     expanded: true
